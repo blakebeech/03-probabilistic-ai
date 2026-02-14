@@ -3,10 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pasta la Vista - Italian Pop-up Restaurant</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Caveat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Pasta la Vista</h1>
+        <p class="tagline-small">An Italian Pop-up Experience</p>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Reserve</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <img src="img/featured.png" alt="Pasta la Vista Featured Dish" class="hero-image">
+    <div class="hero-content">
+      <h2>Disappear into Flavor</h2>
+      <p class="hero-tagline">Here today, flavors forever. Catch us before we vanish.</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Featured Dishes</h2>
+      <p class="section-subtitle">Carefully crafted for unforgettable moments</p>
+      
+      <div class="dishes-grid">
+        <!-- Dish 1 -->
+        <div class="dish-card">
+          <div class="dish-header">
+            <h3>Cacio e Pepe Perfetto</h3>
+            <span class="price">$16</span>
+          </div>
+          <p class="dish-description">Silky Pecorino Romano and cracked black pepper create our signature Roman pasta. Simple, authentic, unforgettable.</p>
+          <p class="dish-details">Tonnarelli pasta, Pecorino Romano, black pepper</p>
+        </div>
+
+        <!-- Dish 2 -->
+        <div class="dish-card">
+          <div class="dish-header">
+            <h3>Ossobuco al Ragù</h3>
+            <span class="price">$28</span>
+          </div>
+          <p class="dish-description">Braised veal shanks in a rich tomato and wine reduction, served with creamy risotto Milanese for pure indulgence.</p>
+          <p class="dish-details">Veal shank, tomatoes, white wine, risotto</p>
+        </div>
+
+        <!-- Dish 3 -->
+        <div class="dish-card">
+          <div class="dish-header">
+            <h3>Panna Cotta Dolce</h3>
+            <span class="price">$12</span>
+          </div>
+          <p class="dish-description">Silky smooth Italian cream dessert topped with fresh berries and a drizzle of aged balsamic reduction.</p>
+          <p class="dish-details">Heavy cream, vanilla, fresh berries, balsamic</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact/Reservation Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Join Our Experience</h2>
+      <p class="section-subtitle">Reserve your spot before we disappear</p>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Pop-up Details</h3>
+          <p><strong>Location:</strong> Rotating venues across the city</p>
+          <p><strong>Seating:</strong> Limited to 30 guests per service</p>
+          <p><strong>Service Duration:</strong> 2-3 hours of culinary bliss</p>
+          <p><strong>Contact:</strong> hello@pastalvista.com</p>
+        </div>
+        
+        <button class="reservation-btn">Make a Reservation</button>
+        <p class="reservation-note">*Reserve by email or call for current location and availability</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Pasta la Vista. Here today, gone tomorrow, but memories that linger.</p>
+  </footer>
 </body>
 </html>
